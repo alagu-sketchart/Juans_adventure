@@ -85,7 +85,7 @@ function draw() {
 
   for(var i = 0; i<=7; i++){
     Juan.collide(Ground[i])
-    //Ground[i].visible = false;
+    Ground[i].visible = false;
   }
 
   for(var j = 0; j<=4; j++){
