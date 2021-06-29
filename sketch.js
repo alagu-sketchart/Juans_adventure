@@ -7,7 +7,6 @@ var Juan;
 var engine, world;
 var Platform1, Platform2, Platform3, Platform4, Platform5;
 var coin1, coin2, coin3, coin4, coin5;
-var Aztec;
 var shot
 var coinImg;
 var score;
@@ -20,7 +19,6 @@ function preload(){
   Spain2 = loadAnimation("Spain_left.png");
   Spain_run = loadAnimation("Spain.png");
   coinImg = loadImage("coins.png");
-  Aztec = loadImage("Totem.jpg");
   Dead = loadImage("Dead.png");
   Exit = loadImage("Exit.jpg");
   Magma = loadImage("Lava.png");
